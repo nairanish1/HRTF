@@ -15,10 +15,13 @@ setuptools.setup(
     url='https://github.com/gvisani/holographic_vae',
     python_requires='>=3.8',
     install_requires=[
-        "torch>=1.9.0",
-        "e3nn>=0.4.4",
+         "torch",
+        "e3nn",
         "numpy",
         "networkx",
+        "scipy",
+        "pandas",
+
     ],
     packages=setuptools.find_packages(),
 )

@@ -16,3 +16,6 @@
 *.slurm
 *ubyte
 *.mdb
+Processed_ML/
+train_dataset.pt
+val_dataset.pt
